@@ -1,0 +1,34 @@
+#templatemo_banner_wrapper {
+  width: 100%;
+  background-color: #333;
+}
+
+#templatemo_banner {
+  width: 960px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+#templatemo_banner_image {
+  width: 100%;
+  display: block;
+  overflow: hidden;
+  margin-top: 10px;
+}
+#templatemo_image {
+  float: left;
+}
+#templatemo_banner_image_wrapper img {
+  width: 100%;
+  height: auto;
+}
+.image-container {
+  float: left;
+  max-width: 400px;
+  max-height: 100px;
+}
+.content {
+  float: right;
+  margin-left: 500px;
+  color: #ffffff;
+}

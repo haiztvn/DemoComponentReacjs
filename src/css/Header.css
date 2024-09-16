@@ -1,0 +1,64 @@
+#templatemo_header_wrapper {
+  width: 100%;
+  background-color: #0f0909;
+}
+
+#templatemo_header {
+  width: 960px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+#site_logo {
+  float: left;
+  width: 50px;
+  height: 50px;
+  background-image: url("E:\baihoc\DOANCOSO\anh\1.png");
+  background-size: cover; /* Chỉnh kích thước ảnh */
+  background-position: center; /* Căn giữa ảnh */
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#templatemo_menu {
+  float: right;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+#templatemo_menu_left {
+  float: left;
+  background-color: #b5b3b3;
+  border-radius: 5px;
+}
+
+#templatemo_menu ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+#templatemo_menu ul li {
+  float: left;
+}
+
+#templatemo_menu ul li a {
+  display: block;
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
+}
+
+#templatemo_menu ul li a:hover {
+  background-color: #f3e7e7;
+  border-radius: 5px;
+}
+
+#templatemo_menu ul li a.current {
+  background-color: #ce5757;
+  border-radius: 5px;
+}
+
+#templatemo_menu ul li a.last {
+  margin-right: 0; /* Xóa margin phải của phần tử cuối cùng */
+}
